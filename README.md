@@ -1,2 +1,2 @@
 # scriptsPowershell
-im a noobie in powershell, this is my random scripts
+im a noobie in powershell, these are my random scripts
