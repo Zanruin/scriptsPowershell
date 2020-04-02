@@ -1,3 +1,4 @@
+param([string]$p1= $null)
 $serversFile = import-csv -path "CSVPATH"
 $serversFile.Host|ForEach-Object{
     $server = $_
