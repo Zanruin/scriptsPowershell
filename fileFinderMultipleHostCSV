@@ -1,5 +1,5 @@
 param([string]$p1= $null)
-$serversFile = import-csv -path "CSVPATH"
+$serversFile = import-csv -path $p1
 $serversFile.Host|ForEach-Object{
     $server = $_
     $file = "filePATH"
